@@ -2,9 +2,10 @@
 
 Sample demonstrating issue with HTTP Azure Function POST request.
 
+Based on Micronaut launch configuration 2.0.0.BUILD-SNAPSHOT 
+
 ## How to reproduce
 
-- Create sample project (Kotlin) based on Micronaut launch configuration 2.0.0.BUILD-SNAPSHOT 
 - Deploy to Azure as Function
 - Invoke HTTP POST to get the exception
 
