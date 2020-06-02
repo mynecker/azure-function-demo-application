@@ -1,5 +1,8 @@
 # Sample 
 
+Related to: https://github.com/micronaut-projects/micronaut-azure/issues/5
+
+
 Sample demonstrating issue with HTTP Azure Function POST request.
 
 Based on Micronaut launch configuration 2.0.0.BUILD-SNAPSHOT 
