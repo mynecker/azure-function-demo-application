@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.example
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle
+features: [app-name, azure-function, azure-function-http, docker, gradle, junit, kotlin, kotlin-application, logback, readme, yaml]
