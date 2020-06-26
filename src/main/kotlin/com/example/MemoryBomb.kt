@@ -14,7 +14,7 @@ class MemoryBomb {
     fun postConstruct(){
         uuid = UUID.randomUUID()
         //just create some memory consuming data
-        memoryBombString = (1..1000000).joinToString("abcdefghijklmnopqrstuvwxyz_")
+        memoryBombString = (1..2).joinToString("abcdefghijklmnopqrstuvwxyz_")
 
     }
 

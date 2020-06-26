@@ -5,6 +5,9 @@ import io.micronaut.azure.function.http.AzureHttpFunction
 import java.util.*
 
 class Function : AzureHttpFunction() {
+
+    var functionUuid = UUID.randomUUID()
+
     @FunctionName("ExampleTrigger")
     fun invoke(
             @HttpTrigger(name = "req",
@@ -13,6 +16,7 @@ class Function : AzureHttpFunction() {
                     authLevel = AuthorizationLevel.ANONYMOUS)
             request: HttpRequestMessage<Optional<String>>,
             context: ExecutionContext): HttpResponseMessage {
+            context.logger.info("Function-UUID:${functionUuid}")
         return super.route(request, context)
     }
 }
