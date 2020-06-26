@@ -1,6 +1,6 @@
 # Sample 
 
-Related to: https://github.com/micronaut-projects/micronaut-azure/issues/5
+Related to: https://github.com/micronaut-projects/micronaut-azure/issues/17
 
 
 Sample demonstrating issue with HTTP Azure Function and Micronaut Azure Function support.
