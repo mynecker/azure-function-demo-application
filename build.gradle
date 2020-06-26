@@ -89,7 +89,7 @@ tasks.withType(JavaExec) {
 
 azurefunctions {
     resourceGroup = 'your-resource-group'
-    appName = 'azure-function-demo-application'
+    appName = 'your-app-name'
     pricingTier = 'Consumption'
     region = 'westus'
     runtime {
